@@ -19,14 +19,3 @@ class Address
     address
   end
 end
-
-home = Address.new
-home.kind = "Home"
-home.street_1 = "20 Ford street."
-home.city = "Surry hills"
-home.state = "NSW"
-home.postal_code = "2000"
-
-puts home.to_s('short')
-puts "\n"
-puts home.to_s('long')
