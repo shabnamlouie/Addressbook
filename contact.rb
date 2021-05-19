@@ -92,14 +92,3 @@ class Contact
     addresses.each { |address| puts address.to_s('short') }
   end
 end
-
-Shabnam = Contact.new
-Shabnam.first_name = "Shabnam"
-Shabnam.last_name = "Louie"
-Shabnam.add_phone_number("Home", "123-456-78")
-Shabnam.add_phone_number("Work", "987-654-32")
-Shabnam.add_address("Home", "20 Ford st.", "", "Surry hills", "NSW", "2000")
-
-puts Shabnam.to_s('full_name')
-Shabnam.print_phone_numbers
-Shabnam.print_addresses
