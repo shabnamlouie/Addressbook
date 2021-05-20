@@ -1,0 +1,23 @@
+---
+- !ruby/object:Contact
+  phone_numbers: []
+  addresses: []
+  first_name: shabnam
+  middle_name: louie
+  last_name: ''
+- !ruby/object:Contact
+  phone_numbers:
+- !ruby/object:PhoneNumber
+  kind: Home
+  number: 123-456-7890
+  addresses:
+- !ruby/object:Address
+  kind: Work
+  street_1: 20 Ford street
+  street_2: ''
+  city: Surry hills
+  state: NSW
+  postal_code: '2000'
+  first_name: Sara
+  middle_name: ''
+  last_name: Pitt
