@@ -13,7 +13,7 @@ So to start, I create classes for each different parts of the address book proje
 Such as: include the address book itself, contacts, and their information.
 
 I wrote pseudocode with logical thinking to go to which classes of these different parts of the program.
-Contact file:
+- Contact file:
 I add a file to my address book folder with the name of the contact.RB and start with the user contact class, which will keep my contacts. 
 The contact is going to include the idea of one of my friends in the address book.
 
@@ -23,7 +23,7 @@ I wanted to show my full name together, so I made another method called full_nam
 User type first name, and if does not have middle name it can go to next question and ask the last name.
 Make string method of full name, then use a case statement to see what the format is. By default, return first and last name and did not include middle name.
 
-Phone_number file:
+- Phone_number file:
 I create my phone number class into phone_number.RB file.
 Make attribute accessor for the kind of numbers such as home or work or mobile.
 Make string method for kind and number
@@ -34,7 +34,7 @@ Make a new phone number instance with the kind and number argument.
 Create method print phone numbers by using each method through the loop.
 Make access to my phone number file by using require keyword and give a path to the contact file.
 
-Address file:
+- Address file:
 Create address.RB file to the address book folder
 Create address class which is similar to phone number class by writing attribute accessor and adding the first line, second line, city, state, and postal code
 
@@ -50,7 +50,7 @@ Then set all of the attributes to the argument of this method.
 Make definition of print addresses same as phone number as a string by using the short version.
 We are adding addresses by referencing instancing variables which we have attribute readers for.
 
-Address book file:
+- Address book file:
 
 Create an address book.RB and initialize address book class and put our contact in an empty array called instance variable, so we do not need to use @sign for each time to refer to the contact.
 We have an attribute reader for contact, so I create a method to print the contact list by writing first name and last name format.
@@ -70,7 +70,7 @@ So we have a pattern of an empty result array and then manipulating search they 
 Making a loop through contact and address by writing definition of find by address and making lower version of query in an empty array and create our search variable.
 Use string method before using include method to see if one string is included in another, so by using long-form of address to see if the search include in there or not but need to loop to each address for each contact to see if the query is contain there.
 
-Input and output:
+- Input and output:
 After setup our classes work of input and out put by using the ruby class from the standard library to save things between sections.
 
 Making more command-line application by making a menu that allowing user to select something and work in the command line rather than from inside of ruby file.
@@ -88,11 +88,18 @@ Add last option to save out address book to a file, for this reason, we write tw
 Before exit another method call save method to save our contact list even though we have not written yet, and then once we initialize that write-in address book, another method called open method so that anything that we have saved will be loaded in to our contact.
 Using a class from ruby standard library called Yaml so then we can save all of the ruby object in to the text base format and then we can write back text down to a file.
 Yaml is just a class interface to another class which is where the method that we using come from, so we gonna be using load file and two yaml methods, and then for writing our files, I used IO and file class by open method.
- Then required yaml as part of standard library on top of the address book file.
+
+- Then required yaml as part of standard library on top of the address book file.
 Once user write information as the app asked for, it going to save in a file called contacts.yml
 Then write another open method if the file exists, we assume contacts in there so we can replace the contacts array with the content of YAMLthe  file by calling load file on the same class.
 
-Target audience:
+- Adding symbol of Address Book to my app by searching this website. https://fsymbols.com/generators/smallcaps/
+
+- I add an emoji of note book by searching in https://apps.timwhitlock.info/emoji/tables/unicode website.
+
+- Add colorize gem file to makes my menu colorfull by searching in ruby gem website. "https://rubygems.org"
+
+- Target audience:
 My target audience are users who access to my codes, such as my teachers and my classmates.
 
 
@@ -100,43 +107,74 @@ My target audience are users who access to my codes, such as my teachers and my 
 ## Develop a list of features that will be included in the application:
 
 
+First of all we need to ask what we need from an address book?
+Secondly, an address book need to have ability of adding a contact, printing address book list and finally, searching. According to these abilities my app has these features.
 
-I design my website’s pages in Balsamiq wireframe app.
-I design site map for my website.
-Then according to my design, I wrote HTML & CSS codes in visual studio code.
-### For This website I make some pages such as: 
-Home ,
-About ,
-Works ,
-Blog ,
-Contact ,
-So you can navigate to other pages.
+Search: when user press s word, search term word appear which, allows user to search a number or a letter of a name that already save in the app and can show what was saved according to what user searched.
+For example:
+Search term: 5
+Name search results (5)
+Phone search results (5)
+Address search results (5)
+In this example number 5 was saved according to previous search.
 
-## Sitemap:
-![The Sitemap](./docs/images/Home/Sitemap.jpg)
-## Home:
-![The Home](./docs/images/Home/Home.jpg)
-## About:
-![The About](./docs/images/Home/About.jpg)
-## Works:
-![The Work](./docs/images/Home/Works.jpg)
-## Blog:
-![The Blog](./docs/images/Home/Blog.jpg)
-## Post:
-![The Post](./docs/images/Home/Posts.jpg)
-## Contact:
-![The Contact](./docs/images/Home/Contact.jpg)
-## Screen shots of pages:
-![The 1](./docs/images/Home/1.jpg)
-![The 2](./docs/images/Home/2.jpg)
-![The 3](./docs/images/Home/3.jpg)
-![The 4](./docs/images/Home/4.jpg)
-![The 5](./docs/images/Home/5.jpg)
-![The 6](./docs/images/Home/6.jpg)
+Add:
+For adding when user press a word, add contact word appear which allows user to type first name, middle name, last name. Then for continuing the menu by pressing a adding phone number and adding address. So all of these information will saved then when user can search later then all will be show.
+For example:
+Address Book
+a: Add Contact
+p: Print Address Book
+s: Search
+e: Exit
+Enter your choice: a
+First name:
+Middle name: 
+Last name: 
+Add phone number or address? 
+p: Add phone number
+a: Add address
 
-## Target Audience:
-Target audience for my website is mainly my classmate and techers to see how much I progress I had since I start my course.
+Print: For print after user type p word app prints contact list that user search these information before and contain find by address and find by phone number.
+For example:
+  - !ruby/object:PhoneNumber
+    kind: a
+    number: a
+  addresses:
+  - !ruby/object:Address
+    kind: a
+    street_1: a
+    street_2: a
+    city: a
+    state: a
+    postal_code: a
+  first_name: a
+  middle_name: a
+  last_name: a
 
-## Tech stack:
-I made my portfolio website through visual studio and also, I made a git repository on my github then, after each changes I pushed my files to github and then git pull them to have them back.
-Finally, I deploy my website into Netlify.
+
+As you know, control structures play an important role in programming because all the control that must be done on inputs and outputs is done in these structures. For this app I use loops and conditional control structures such as:
+If, Else, Case
+Repeat loops such as: Break
+
+
+
+# Question 7:
+## Develop an outline of the user interaction and experience for the application:
+
+Develop an outline of the user interaction and experience for the application.
+The user will find out how to interact with my app by searching for a word or letter or number or address.
+Then app shows the menu of words according to user needs and if user type incorrect information app gonna go back and ask same questions until user press right key and answer correct question, and if the user wanna exit can press e key that makes user out of loop.
+
+# Question 8:
+This flow chart describes development of my terminal application.
+
+
+# Question 9:
+
+
+Address book Trello-app
+
+Terlo program is one of the application that I use to manage my daily tasks. Also I make different order and categories, which have really completely solved the problems during my project and the past.
+
+For example, in the past, in order to categorize tasks and follow the order between them, I had to prepare several papers so that we could write the tasks several times in order and put them together several times to reach the final result! But fortunately, with Terlo, I do not have such issues, and I can very easily and simply categorize your daily tasks and do them in order, and no disorder will affect me as much as in the past.
+
