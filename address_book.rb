@@ -4,7 +4,13 @@ require "colorize"
 
 class AddressBook
     attr_reader :contacts
-    puts "\xF0\x9F\x93\x93"
+    puts "
+    ░█████╗░██████╗░██████╗░██████╗░███████╗░██████╗░██████╗  ██████╗░░█████╗░░█████╗░██╗░░██╗
+    ██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝  ██╔══██╗██╔══██╗██╔══██╗██║░██╔╝
+    ███████║██║░░██║██║░░██║██████╔╝█████╗░░╚█████╗░╚█████╗░  ██████╦╝██║░░██║██║░░██║█████═╝░
+    ██╔══██║██║░░██║██║░░██║██╔══██╗██╔══╝░░░╚═══██╗░╚═══██╗  ██╔══██╗██║░░██║██║░░██║██╔═██╗░
+    ██║░░██║██████╔╝██████╔╝██║░░██║███████╗██████╔╝██████╔╝  ██████╦╝╚█████╔╝╚█████╔╝██║░╚██╗
+    ╚═╝░░╚═╝╚═════╝░╚═════╝░╚═╝░░╚═╝╚══════╝╚═════╝░╚═════╝░  ╚═════╝░░╚════╝░░╚════╝░╚═╝░░╚═╝"
 
     def initialize
         @contacts = []
@@ -26,6 +32,7 @@ class AddressBook
     def run
         loop do
             puts "Address Book".colorize(:red)
+            puts "\xF0\x9F\x93\x95 \xF0\x9F\x93\x92 \xF0\x9F\x93\x98 \xF0\x9F\x93\x97 \xF0\x9F\x93\x93"
             puts "a: Add Contact".colorize(:yellow)
             puts "p: Print Address Book".colorize(:magenta)
             puts "s: Search".colorize(:cyan)
@@ -147,7 +154,7 @@ class AddressBook
     end
 
     def print_contact_list
-        puts "Contact List"
+        puts "Your contact list saved"
         contacts.each do |contact|
         puts contact.to_s('last_first')
         end
