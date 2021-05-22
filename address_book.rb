@@ -1,8 +1,10 @@
 require "./contact"
 require "yaml"
+require "colorize"
 
 class AddressBook
     attr_reader :contacts
+    puts "\xF0\x9F\x93\x93"
 
     def initialize
         @contacts = []
@@ -23,11 +25,11 @@ class AddressBook
 
     def run
         loop do
-            puts "Address Book"
-            puts "a: Add Contact"
-            puts "p: Print Address Book"
-            puts "s: Search"
-            puts "e: Exit"
+            puts "Address Book".colorize(:red)
+            puts "a: Add Contact".colorize(:yellow)
+            puts "p: Print Address Book".colorize(:magenta)
+            puts "s: Search".colorize(:cyan)
+            puts "e: Exit".colorize(:green)
             print "Enter your choice: "
             input = gets.chomp.downcase
             case input
