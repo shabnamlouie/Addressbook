@@ -4,7 +4,7 @@
 
 # Question 5:
 ## Develop a statement of purpose and scope for your application:
-# 📓:
+# 📓
 
 I am building an Address Book terminal app with Ruby in the command-line program to let the user put in the names and information of all of their contacts.
 Then, the user will add in the ability to go through and search these contacts.
