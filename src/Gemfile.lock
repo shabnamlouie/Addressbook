@@ -6,6 +6,9 @@ GEM
     method_source (1.0.0)
     pry (0.14.1)
       coderay (~> 1.1)
+       json (2.5.1)
+    pastel (0.8.0)
+    artii (2.1.2)
       method_source (~> 1.0)
 
 PLATFORMS
@@ -14,6 +17,13 @@ PLATFORMS
 DEPENDENCIES
   colorize (~> 0.8.1)
   pry (~> 0.14.1)
+  artii (~> 2.1)
+  json (~> 2.5)
+  rspec (~> 3.10)
+  tty-box (~> 0.7.0)
+  tty-prompt (~> 0.23.1)
 
 BUNDLED WITH
    2.2.16
+
+   

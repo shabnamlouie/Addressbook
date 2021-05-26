@@ -1,17 +1,1 @@
----
-- !ruby/object:Contact
-  phone_numbers:
-  - !ruby/object:PhoneNumber
-    kind: home
-    number: '9876543'
-  addresses:
-  - !ruby/object:Address
-    kind: home
-    street_1: unit 13
-    street_2: 70 holy street
-    city: surry hills
-    state: nsw
-    postal_code: '2000'
-  first_name: Shabnam
-  middle_name: ''
-  last_name: Louie
+--- []
