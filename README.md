@@ -302,5 +302,7 @@ gem "artii", "~> 2.1"
 
 #### Hardware requirements:
 Windows 10
+
 Linux (Arch)
+
 MacBook Pro (Retina)
