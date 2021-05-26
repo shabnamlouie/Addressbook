@@ -8,7 +8,6 @@
 
 ![Flow_chart](../addressbook/image/Flow_chart.jpg)
 
-
 ### Description: 
 I built an Address Book terminal app with Ruby in the command-line program to let the user put in the names and information of all of their contacts.
 
