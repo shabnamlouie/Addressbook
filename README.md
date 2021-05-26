@@ -6,7 +6,7 @@
 ##### This flow chart describes development of my terminal application.
 
 
-![Flow_chart](../addressbook/src/image/Flow_chart.jpg)
+![Flow_chart](../addressbook/image/Flow_chart.jpg)
 
 
 ### Description: 
@@ -241,12 +241,12 @@ Finished in 0.0063 seconds (files took 0.22831 seconds to load)
 
 
 ### User interaction and experience:
-![user](../addressbook/src/image/user.jpg)
+![user](../addressbook/image/user.jpg)
 - Run bash script to launch an app by typing
 (./run_address_book.sh) on terminal app (see below picture)
 
 
-![script](../addressbook/src/image/script.jpg)
+![script](../addressbook/image/script.jpg)
 
 - A big Address book symbol is shows on top of menu display.
 - By typing a asking your name and then middle name and last name.
@@ -263,9 +263,9 @@ Trello: [Address book terminal app project](https://trello.com/b/GtuAuDj7/addres
 I use of Terllo program to manage my daily tasks. Also I made different duties, which have really completely solved the problems during my project.
 These screen shots of trello shows my progress of my terminal app during one week assignment.
 
-![Trello](../addressbook/src/image/1.jpg)
-![Trello](../addressbook/src/image/2.jpg)
-![Trello](../addressbook/src/image/3.jpg)
+![Trello](../addressbook/image/1.jpg)
+![Trello](../addressbook/image/2.jpg)
+![Trello](../addressbook/image/3.jpg)
 
 ## Instruction to using address book app
 
