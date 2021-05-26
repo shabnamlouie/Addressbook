@@ -6,7 +6,7 @@
 ##### This flow chart describes development of my terminal application.
 
 
-![Flow_chart](../addressbook/image/Flow_chart.jpg)
+![Flow_chart](../addressbook/docs/image/Flow_chart.jpg)
 
 ### Description: 
 I built an Address Book terminal app with Ruby in the command-line program to let the user put in the names and information of all of their contacts.
@@ -240,12 +240,12 @@ Finished in 0.0063 seconds (files took 0.22831 seconds to load)
 
 
 ### User interaction and experience:
-![user](../addressbook/image/user.jpg)
+![user](../addressbook/docs/image/user.jpg)
 - Run bash script to launch an app by typing
 (./run_address_book.sh) on terminal app (see below picture)
 
 
-![script](../addressbook/image/script.jpg)
+![script](../addressbook/docs/image/script.jpg)
 
 - A big Address book symbol is shows on top of menu display.
 - By typing a asking your name and then middle name and last name.
@@ -262,9 +262,9 @@ Trello: [Address book terminal app project](https://trello.com/b/GtuAuDj7/addres
 I use of Terllo program to manage my daily tasks. Also I made different duties, which have really completely solved the problems during my project.
 These screen shots of trello shows my progress of my terminal app during one week assignment.
 
-![Trello](../addressbook/image/1.jpg)
-![Trello](../addressbook/image/2.jpg)
-![Trello](../addressbook/image/3.jpg)
+![Trello](../addressbook/docs/image/1.jpg)
+![Trello](../addressbook/docs/image/2.jpg)
+![Trello](../addressbook/docs/image/3.jpg)
 
 ## Instruction to using address book app
 
