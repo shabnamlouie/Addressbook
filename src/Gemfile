@@ -7,9 +7,12 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # gem "rails"
 gem 'colorize', '~> 0.8.1'
 gem 'pry', '~> 0.14.1'
-gem "tty-prompt"
+gem "tty-prompt", "~> 0.23.1"
+gem "json", "~> 2.5"
 gem "unirest"
 gem "faker"
 gem "activerecord"
 gem "sqlite3"
 gem "rake"
+gem "tty-box", "~> 0.7.0"
+gem "artii", "~> 2.1"
