@@ -1,1 +1,17 @@
---- []
+---
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: home
+    number: '9654'
+  addresses:
+  - !ruby/object:Address
+    kind: home
+    street_1: unit 3
+    street_2: 30 geroge street
+    city: central
+    state: nsw
+    postal_code: '2000'
+  first_name: shabnam
+  middle_name: ''
+  last_name: louie
