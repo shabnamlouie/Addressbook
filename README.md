@@ -188,15 +188,15 @@ Adding symbol of Address Book to my app by searching this website. https://fsymb
 #### 8- Add Emoji
 I add an emoji of note book by searching in https://apps.timwhitlock.info/emoji/tables/unicode website.
 
-#### 9- Add colrize
+#### 9- Add colorize
 Add colorize gem file to makes my menu colorfull by searching in ruby gem website. "https://rubygems.org"
 
-#### 10- Control structure:
+#### 10- Control structure
  For this app I use loops and conditional control structures such as:
 If, Else, Case
 Repeat loops such as: Break
 
-#### 11-Error handling:
+#### 11-Error handling
 Error handling is being used in this app user searching for different value. In this case display menu will show to type correct value.
 
 I downloaded rspec ruby gem then run it in my vs code.
@@ -240,7 +240,9 @@ Finished in 0.0063 seconds (files took 0.22831 seconds to load)
 
 
 ###### Example of error handling:
+Before
 ![error handeling](./docs/image/error.jpg)
+After
 ![error handeling](./docs/image/fix.jpg)
 
 ### User interaction and experience:
@@ -274,7 +276,7 @@ These screen shots of trello shows my progress of my terminal app during one wee
 
 
 ##### 1. By pressing below link read the instruction then download and install the latest version of Ruby [Instructor of how to download and install Ruby](https://www.ruby-lang.org/en/downloads/)
-##### 2. Install Bundler gem too
+##### 2. Install Bundler gem
 ##### 3. Dependencies such as:
 gem 'colorize', '~> 0.8.1'
 
