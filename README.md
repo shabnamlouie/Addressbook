@@ -221,6 +221,7 @@ end
    end
   end
 
+
 NameError:
   uninitialized constant PhoneNumber
  ./spec/address_book_spec.rb:3:in `<top (required)>'
@@ -238,6 +239,9 @@ Finished in 0.0063 seconds (files took 0.22831 seconds to load)
 1 example, 0 failures]
 
 
+###### Example of error handling:
+![error handeling](./docs/image/error.jpg)
+![error handeling](./docs/image/fix.jpg)
 
 ### User interaction and experience:
 ![user](./docs/image/user.jpg)
